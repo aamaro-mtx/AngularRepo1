@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "angular": "1.4.0",
+    "bootstrap": "3.3.4"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "css": "dist/css/*.*",
+      "fonts": "dist/fonts/*.*",
+      "js": "dist/js/*.*"
+    },
+    "jquery": {
+      "": "dist/jquery.{js,min.js,min.map}"
+    }
+  },
+  "license": "Apache-2.0",
+  "name": "bower",
+  "private": true
+}
